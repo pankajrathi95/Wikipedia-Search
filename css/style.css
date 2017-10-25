@@ -1,0 +1,41 @@
+.container-fluid {
+  margin-top : 45px;
+}
+
+h1 {
+  font-weight:bold;
+  font-family:Segoe UI Light;
+}
+#searchTerm {
+  width:200px;
+  height:28px;
+  border-radius:10px;
+  -webkit-transition:width 0.4s;
+   outline: none;
+}
+#searchTerm:focus {
+  width:300px;
+   outline: none;
+}
+
+button {
+  border-radius:10px !important;
+}
+
+p {
+  color:black;
+}
+a:hover{
+  text-decoration:none;
+}
+.box:hover {
+   border-left:5px solid rgb(51, 122, 183);
+}
+
+
+
+.box {
+  background-color: #eee;
+  padding: 10px 10px 10px 10px;
+  margin:1px;
+}
